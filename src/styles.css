@@ -1,0 +1,5 @@
+/* Add application styles & imports to this file! */
+@import '@angular/material/prebuilt-themes/deeppurple-amber.css';
+@import url('https://unpkg.com/bootstrap@4.5.0/dist/css/bootstrap.min.css');
+@import '~bootstrap/dist/css/bootstrap.min.css';
+

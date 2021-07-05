@@ -1,0 +1,19 @@
+ 
+p {
+  font-family: Lato;
+  text-align: center;
+}
+
+h1{
+  
+  font-size: 100px;
+  color: red;
+  text-align: center;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}

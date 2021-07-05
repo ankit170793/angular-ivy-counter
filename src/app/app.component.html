@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <h1>{{ count}}</h1>
+  <p>
+    Click button for counter operations
+  </p>
+
+  <div class=" flex-container">
+    <!-- <div class="col-md-3">
+  <button mat-raised-button color="primary" (click)="increment()">increase by 1</button>
+  
+</div> -->
+    <div class="">
+      <button mat-mini-fab color="accent" (click)="increment()">
+  <mat-icon>+1</mat-icon>
+</button>
+    </div>
+    <div class="">
+      <button mat-raised-button color="primary" (click)="reset()">Reset</button>
+    </div>
+    <div class="">
+      <button mat-mini-fab color="accent" (click)="decrement()">
+  <mat-icon>-1</mat-icon>
+</button>
+    </div>
+    <!-- <div class="col-md-3">
+<button mat-raised-button color="primary" (click)="start()">start</button>
+</div> -->
+  </div>
+
+</body>
+
+</html>
